@@ -1,0 +1,11 @@
+const ussdCodes = [
+  { service: 'Airtime Recharge', code: '*123*amount#', description: 'Recharge airtime' },
+  { service: 'Balance Check', code: '*996#', description: 'Check account balance' },
+  { service: 'Data', code: '*345#', description: 'Buy data' },
+  // Add more USSD codes here
+];
+
+// Function to display USSD codes
+function displayUSSDCodes() {
+  // Existing display logic
+}
